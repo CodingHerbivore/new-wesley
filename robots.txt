@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /testing/
+Sitemap: http://www.wesleyumcsheboygan.com/sitemap.xml

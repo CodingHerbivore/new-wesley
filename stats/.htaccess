@@ -1,0 +1,11 @@
+IndexIgnore */*
+
+ AddHandler server-parsed .html .htm .php
+ AddType application/x-httpd-php .html .htm .php
+
+<FilesMatch "^php5?\.(ini|cgi)$">
+ Order Deny,Allow 
+ Deny from All 
+ Allow from env=REDIRECT_STATUS 
+ </FilesMatch> 
+ 

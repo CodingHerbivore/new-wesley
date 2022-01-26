@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #3B3B3B;
+	margin: auto;
+	z-index: 3;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+#phoneNav {
+	display: none;
+}
+#phoneMenu {
+	text-decoration: none;
+}
+#header {
+	display: none;
+	/*background-color: #808080;
+	margin: auto;
+	width: 950px;
+	height: 110px;*/	
+}
+#phoneHeader {
+	display: block;
+	background-color: #808080;
+	margin: auto;
+	color: white;
+}
+.phoneHeaderLable {
+	font-size: xx-large;
+}
+#pageContainer {
+	text-align: center;
+	z-index: 4;
+	max-width: 950px;
+	margin: auto;
+	background-color:#F7F6F6;
+}
+.row {
+	width: 50%;
+	padding-bottom: 10px;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #424242;
+	font-size: xx-large;
+	margin: 0px;
+}
+#service {
+	margin: 0px 0px 5px 0px;
+	padding: 5px;
+	text-align: center;
+	background-color: rgb(163,0,6);
+	color:white;
+}
+#leftColumn {
+	display: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+#churchPhoto {
+	width: 90%;
+	height: 300px;
+	background: url(images/sanctuary0005.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+/* Navigational Elements */
+#touchToNav {
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#touchText {
+	font-size: x-large;
+	color: red;
+}
+#navColumn {
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+	padding: 5px;
+	margin-bottom: 0px;
+	text-decoration:none;
+	text-align:center;
+}
+#navColumn ul {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px 10px 0px 0px;
+	overflow:hidden;
+}
+#navColumn li {
+	padding: 10px;
+}
+#navColumn a {
+	padding: 10px;
+	font-size: x-large;
+	color: red;
+	text-decoration:underline;
+}
+#navColumn a:link { 
+	text-decoration:underline;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 0px 10px 0px;
+}
+#navColumn a:hover { 
+	text-decoration:underline;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navColumn a:active, #navColumn a:visited {
+	text-decoration:none;
+    color:#E64016;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* leftColumn social stuff */
+#facebook {
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+#facebook ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+.shareButton {
+	margin-left: 25px;
+}
+#addThisSide {
+	display: none;
+}
+/*Left column adbox*/
+.leftColAdbox {
+	background-color: #FFF;
+	border: 1px solid #333333;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#mainContent {
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	clear: none;
+	margin-top: 0px;
+}
+/* Footer styles */
+#footer {
+	background-color: #808080;
+	color: white;
+	text-align:center;
+	margin-top: 10px;
+	width: auto;
+	clear: both;
+	padding:5px;
+}
+#contactInfo {
+	text-align:center;
+	font-size:large;
+	margin-bottom: 10px;
+}
+.copyright {
+	font-size: small;
+}
+h4 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	color: #343434;
+}
+h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3B3B3B;
+	text-decoration: none;
+}
+#pastorLarge {
+	width: 133px;
+	height: 200px;
+	float: right;
+	margin: 5px;
+}
+.frontPageImg {
+	width: 150px;
+	height: 100px;
+	float: right;
+	margin: 5px;
+}
+.callIcon {
+	margin: 5px;
+}
+.Phone {
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+.Phone link {
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+.Phone visited {
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+.Phone hover {
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+.Phone active {
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+.contactPhone {
+	color: #000000;
+	text-decoration:underline;
+}
+.contactPhone link {
+	color: #000000;
+	text-decoration:underline;
+}
+.contactPhone visited {
+	color: #000000;
+	text-decoration:underline;
+}
+.contactPhone hover {
+	color: #000000;
+	text-decoration:underline;
+}
+.contactPhone active {
+	color: #000000;
+	text-decoration:underline;
+}
+#calendar {
+	text-align: center;
+	padding-top: 10px;
+}
+a img {
+	border:none;
+}
+/* Font Classes */
+.servicead {
+	font-size: 17px;
+    color: white;
+	font-weight: normal;
+	text-decoration: none;
+}
+#invite {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* COVID modal */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+.modalContent {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}

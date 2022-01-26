@@ -1,0 +1,7 @@
+Header set X-Robots-Tag "noindex, nofollow"
+AddHandler x-httpd-php .html .htm .cgi .php
+AuthUserFile /home/content/09/8317009/html/testing/nopush/.htpasswd
+AuthType Basic
+AuthName "Wesley UMC Testing Site"
+Require valid-user
+
